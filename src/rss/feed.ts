@@ -2,7 +2,7 @@ import { Feed } from 'feed';
 
 export const generateRssFeed = async (): Promise<string> => {
   //環境変数など任意のリンクをbaseUrlに入れる。
-  const baseUrl ='localhost:3000'
+  const baseUrl ='https://next-toc.vercel.app/'
   const feed = new Feed({
     title: '会社名',
     description:
