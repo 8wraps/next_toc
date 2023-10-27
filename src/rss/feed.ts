@@ -26,6 +26,12 @@ function getPosts() {
             date: '2021-10-10',
             url: '記事のurl',
         },
+        {
+            title: '記事タイトル2',
+            description: '記事の概要2',
+            date: '2022-10-10',
+            url: '記事のurl',
+        },
     ];
 }
 
