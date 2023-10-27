@@ -21,7 +21,7 @@ const posts = getPosts(); // remove 'await' since getPosts() doesn't seem to be 
 function getPosts() {
     return [
         {
-            title: '記事タイトル',
+            title: '記事タイトルッ！！！',
             description: '記事の概要',
             date: '2021-10-10',
             url: '記事のurl',
